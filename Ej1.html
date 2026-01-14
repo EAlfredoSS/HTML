@@ -9,13 +9,13 @@
     <link rel="icon" type="image/png">
 </head>
 
-<body>
+<body style="background-color: #222">
     <header>
         <nav>
             <ul>
-                <li><a href="">Chatgpt</a></li>
-                <li><a href="">Gemini</a></li>
-                <li><a href="">Claude</a></li>
+                <li style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;"><a href="">Chatgpt</a></li>
+                <li style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;"><a href="">Gemini</a></li>
+                <li style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;"><a href="">Claude</a></li>
             </ul>
         </nav>
     </header>
@@ -23,67 +23,89 @@
     <main>
 
         <section>
-            <h1>Inteligencia artificial</h1>
+            <h1 style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Inteligencia artificial</h1>
 
-
-            <ARTIcle>
-                <h2>Chatgpt</h2>
-                <p>En diciembre de 2025, <a href="https://chatgpt.com/" target="_blank">ChatGPT</a> se mantiene como
+            <article>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Chatgpt</h2>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">En diciembre de 2025, <a href="https://chatgpt.com/" target="_blank">ChatGPT</a> se mantiene como
                     el chatbot más popular del mundo gracias a su capacidad
                     de razonamiento avanzado y multitarea. Desarrollado por OpenAI,
                     este modelo permite generar textos complejos, resolver problemas
                     de programación y mantener conversaciones de voz fluidas en tiempo
                     real, adaptándose de forma personalizada a las necesidades de cada usuario.</p>
-                    <img 
-                    src="img/logoChatgpt.webp" 
-                    title="Imagen logo ChatGPT"
-                    alt="Imagen logo Chatgpt"
-                    width="600px" 
-                    height="160px">
-            </ARTIcle>
+                <img src="img/logoChatgpt.webp" title="Imagen logo ChatGPT" alt="Imagen logo Chatgpt" width="600px"
+                    height="160px" >
+            </article>
 
-            <ARTICle>
-                <h2>Gemini</h2>
-                <p>En diciembre de 2025, <a href="https://gemini.google.com/?hl=es-ES" target="_blank">Gemini</a> es la
-                    IA más potente de Google.
-                    Está diseñada para procesar texto, imágenes, audio y vídeo simultáneamente.
+            <article>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Gemini</h2>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">En diciembre de 2025, <a href="https://gemini.google.com/?hl=es-ES" target="_blank">Gemini</a> es la
+                    IA más potente de Google. Está diseñada para procesar texto, imágenes, audio y vídeo simultáneamente.
                     Su ventaja es la integración total con Google Workspace. Esto permite a los
                     usuarios automatizar tareas en Gmail, Drive y Docs desde la plataforma Gemini.</p>
-                    <img 
-                    src="img/logoGemini.webp" 
-                    title="Imagen logo gemini"
-                    alt="Logo gemini"
-                    width="600px" 
+                <img src="img/logoGemini.webp" title="Imagen logo gemini" alt="Logo gemini" width="600px"
                     height="150px">
-                    
-            </ARTICle>
+            </article>
 
-            <ARTicle>
-                <h2>Claude</h2>
-                <p>En diciembre de 2025, <a href="https://claude.ai/login?returnTo=%2F%3F" target="_blank">Claude</a>,
+            <article>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Claude</h2>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">En diciembre de 2025, <a href="https://claude.ai/login?returnTo=%2F%3F" target="_blank">Claude</a>,
                     desarrollada por Anthropic, destaca por su
                     capacidad de procesar enormes cantidades de información con un tono mucho más
                     humano y menos robótico que sus competidores. Es la opción preferida para
                     profesionales que requieren análisis de documentos extensos y una IA con
                     fuertes principios éticos que minimiza errores y alucinaciones.</p>
-                    <img 
-                    src="img/logoClaude.webp" 
-                    title="Imagen logo Claude"
-                    alt="Imagen logo Claude"
-                    width="600px" 
+                <img src="img/logoClaude.webp" title="Imagen logo Claude" alt="Imagen logo Claude" width="600px"
                     height="150px">
-            </ARTICle>
+            </article>
 
         </section>
 
-        <section></section>
+        <section>
+            <h1 style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Deja tu valoración</h1>
+            <label for="username" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Nombre:</label>
+            <input type="text" name="username" placeholder="Escribe tu nombre">
+            <br>
+            <br>
+            <label for="password" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Correo electrónico:</label>
+            <input type="text" name="password" placeholder="ejemplo@gmail.com">
+            <br>
+            <br>
+            <label for="IA" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">¿Qué IA quieres valorar?</label>
+
+            <select name="IA">
+                <option value="A" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Chatgpt</option>
+                <option value="B" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Gemini</option>
+                <option value="C" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Claude</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="opcion" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">¿Cómo valoras esta IA?</label>
+            <br>
+            <input type="radio" name="opcion" value="opcion1"> Execelente
+            <input type="radio" name="opcion" value="opcion2"> Bien
+            <input type="radio" name="opcion" value="opcion2"> Mal
+
+            <br>
+            <br>
+            <label for="mensaje" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">Comentario</label>
+
+            <br>
+            <textarea name="mensaje" rows="4" cols="40">Escribe aquí tus comentarios...</textarea>
+            <br>
+            <br>
+            <input type="checkbox" name="opciones" value="opcion1" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;"> Quiero recibir novedades sobre IA
+            <br>
+            <br>
+            <input type="reset" value="Enviar" style="font-family: Arial, Helvetica, sans-serif; color: #ccc; font-size: 16px;margin: 30px;">
+        </section>
 
     </main>
 
     <footer>
-
     </footer>
 
 </body>
-
 </html>
