@@ -1,0 +1,58 @@
+body {
+    background-color: #222;
+}
+
+.fue {
+    text-decoration: line;
+    color: rgb(4, 99, 33);
+}
+
+.fue:hover {
+    text-decoration: overline;
+    color: rgb(255, 81, 0);
+}
+
+.fue:visited {
+    text-decoration: underline;
+    color: rgb(4, 33, 99);
+}
+
+.links a {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ccc; 
+    font-size: 16px;
+    margin: 30px;
+}
+
+.links a:hover {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #090e0f; 
+    background-color: aqua;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ccc; 
+    font-size: 36px; 
+    margin: 30px;
+}
+
+.mtitel {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ccc; 
+    font-size: 16px;
+    margin: 30px;
+}
+
+.tex {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #ccc; 
+    font-size: 16px;
+    margin: 30px;
+}
+
+.tex::first-letter {
+    font-size: 32px;
+}
